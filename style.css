@@ -1,0 +1,20 @@
+/* Personalized fonts */
+
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Regular.eot');
+    src: url('fonts/Raleway-Regular.eot') format('embedded-opentype'),
+         url('fonts/Raleway-Regular.woff') format('woff'),
+         url('fonts/Raleway-Regular.ttf') format('truetype'),
+         url('fonts/Raleway-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;     
+}
+
+/* General elements of the page */
+
+body
+{
+    font-family: 'Raleway';
+}
