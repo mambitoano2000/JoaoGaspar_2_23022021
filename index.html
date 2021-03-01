@@ -12,15 +12,32 @@
         <img src="images/logo/reservia.svg" alt="Logo de Reservia" /> 
 
         <nav>
-            <a>Hébergements</a>
-            <a>Activités</a>
-            <a>S'inscrire</a>
+            <ul>
+                <li><a href="#">Hébergements</a></li>
+                <li><a href="#">Activités</a></li>
+                <li><a href="#">S'inscrire</a></li>
+            </ul>
         </nav>
      </div>
      
      <div id="search">
          <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
          <p>En plein centre ville ou en pleine nature</p>
+        <div id="searchbouton">
+            <input type=search />
+            <input type="submit" value="Rechercher">
+         </div>
+     </div>
+
+     <div id="filters">
+        <form method="post" action="#">
+            <p>Filtres</p>
+                <input type="checkbox" name="economique" id="economique" /> <label for="economique">Économique</label><br />
+                <input type="checkbox" name="familial" id="familial" /> <label for="familial">Familial</label><br />
+                <input type="checkbox" name="romantique" id="romantique" /> <label for="romantique">Romantique</label><br />
+                <input type="checkbox" name="animaux" id="animaux" /> <label for="animaux">Animaux</label>
+         </form>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>         
      </div>
     </header>
 
