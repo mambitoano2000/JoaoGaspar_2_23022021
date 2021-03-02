@@ -34,7 +34,7 @@ header
   margin: auto;
 }
 
-/* Header  - Logo and Nav*/
+/* Header  - Logo and Nav */
 
 #navigation
 {
@@ -42,18 +42,31 @@ header
     justify-content: space-between;
 }
 
+#navigation nav
+{
+    height: 50px;
+    width: 400px;
+}
+
 #navigation ul
 {
     display: flex;
+    justify-content: space-around;
     list-style-type: none;
     padding: 0;
     margin-block-start: 0em;
     margin-block-end: 0em;
+    height: 50px;
+    width: 400px;
+    text-align: end;
+    font-size: 1em;
+    font-weight: 400;
 }
 
 #navigation li
 {
-    margin: 20px;
+   display: block;
+   padding-top: 30px;
 }
 
 #navigation li a
@@ -65,4 +78,87 @@ header
 #navigation li:hover
 {
     border-top: solid 1px #0065FC;
+}
+
+#navigation a:visited
+{
+    
+}
+
+/* Header  - Logo and Nav */
+
+h1
+{
+    font-size: 1.5em;
+}
+
+/* Header  - Filters */
+
+#filters form
+{
+    display: flex;
+}
+
+/* Main */
+
+main
+{
+    width: 1400px;
+    margin: auto;
+}
+
+/* Main - Section 1 */
+
+#accomodation_section
+{
+    width: 1400px;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#accomodation_section img
+{
+    height: 10%;
+    width: 10%;
+}
+
+/* Main - Section 1 - Article */
+
+#accomodation_section article
+{
+    width: 1000px;
+    height: 600px;
+    background-color: #F2F2F2;
+}
+
+/* Main - Section 1 - Aside */
+
+#accomodation_section aside
+{
+    width: 350px;
+    height: 600px;
+    background-color: #F2F2F2;
+}
+
+/* Main - Section 2 */
+
+#activities_section
+{
+
+}
+
+#activities_section img
+{
+
+}
+
+/* Footer */
+
+footer
+{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
 }
