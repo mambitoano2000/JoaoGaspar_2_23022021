@@ -16,5 +16,53 @@
 
 body
 {
-    font-family: 'Raleway';
+    font-family: 'Raleway', Arial, sans-serif;
+    color: black;
+}
+
+#page_block
+{
+    width: 1500px;
+    margin: auto;
+}
+
+/* Header */
+
+header
+{
+  width: 1400px;  
+  margin: auto;
+}
+
+/* Header  - Logo and Nav*/
+
+#navigation
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#navigation ul
+{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+#navigation li
+{
+    margin: 20px;
+}
+
+#navigation li a
+{
+    text-decoration: none;
+    color: #0065FC;
+}
+
+#navigation li:hover
+{
+    border-top: solid 1px #0065FC;
 }
