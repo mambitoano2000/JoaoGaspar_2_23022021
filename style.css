@@ -20,9 +20,10 @@ body
     color: black;
 }
 
-.wrapper
+#page_block
 {
     width: 1500px;
+    margin: auto;
 }
 
 /* Header */
@@ -309,10 +310,10 @@ main
 
 /* Footer */
 
-footer .wrapper
+footer
 {
+    margin: auto;
     display: flex;
-    width: 1500px;
     justify-content: space-between;
     background-color: #F2F2F2;
     height: 140px;
