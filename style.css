@@ -205,21 +205,47 @@ main
 #activities_section
 {
     width: 1400px;
-    height: 500px;
+    height: 600px;
 }
 
 #photo_big
 {
-    height: 87%;
+    height: 450px;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
     object-fit: cover;
 }
 
-#photo_small
+#photo_small_1
 {
-    height: 25%;
-    width: 25%;
+    height: 220px;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+
+#photo_small_2
+{
+    height: 140px;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+
+#photo_small_3
+{
+    height: 80%;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+
+#photo_small_4
+{
+    height: 180px;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
 }
 
 #activities_section h3
@@ -231,7 +257,7 @@ main
 #activities_blocks 
 {
  width: 1400px;
- height: 400px;
+ height: 500px;
  display: flex;
  justify-content: space-between;
 }
@@ -239,11 +265,42 @@ main
 #activity_block
 {
     width: 320px;
-    height: 400px;
-    background-color: aqua;
+    height: 500px;
     border-radius: 25px;
+    box-shadow: 6px 6px 16px #F2F2F2;
 }
 
+#activity_block_2_activities
+{
+    width: 320px;
+    height: 500px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#activity_fort
+{
+    height: 270px;
+    border-radius: 25px;
+    box-shadow: 6px 6px 16px #F2F2F2;
+}
+
+#activity_iles
+{
+    border-radius: 25px;
+    height: 190px;
+    box-shadow: 6px 6px 16px #F2F2F2;
+}
+
+#activity_mini_block
+
+{
+    height: 230px;
+    border-radius: 25px;
+    box-shadow: 6px 6px 16px #F2F2F2;
+}
 
 /* Footer */
 
