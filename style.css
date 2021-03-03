@@ -23,14 +23,15 @@ body
 .wrapper
 {
     width: 1500px;
+    margin: auto;
 }
 
 /* Header */
 
-header
+header .wrapper
 {
-  width: 1400px;  
-  margin: auto;
+ width: 1400px;
+
 }
 
 /* Header  - Logo and Nav */
@@ -309,16 +310,27 @@ main
 
 /* Footer */
 
+footer
+{
+    background-color: #F2F2F2 ;
+}
+
 footer .wrapper
 {
-    display: flex;
+    
     width: 1500px;
+
+}
+
+footer #footer_body
+{
+    display: flex;
     justify-content: space-between;
     background-color: #F2F2F2;
     height: 140px;
+    width: 1150px;
     padding-top: 30px;
     padding-left: 40px;
-    padding-right: 30px;
 }
 
 footer h2
