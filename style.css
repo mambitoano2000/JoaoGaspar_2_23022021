@@ -122,6 +122,7 @@ main
     height: 50%;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
 }
 
 /* Main - Section 1 - Article */
@@ -177,7 +178,7 @@ main
 
 #accomodation_section aside
 {
-    width: 350px;
+    width: 330px;
     height: 600px;
     background-color: #F2F2F2;
     border-radius: 25px;
@@ -207,7 +208,15 @@ main
     height: 500px;
 }
 
-#activities_section img
+#photo_big
+{
+    height: 87%;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+
+#photo_small
 {
     height: 25%;
     width: 25%;
@@ -215,7 +224,7 @@ main
 
 #activities_section h3
 {
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: bold;
 }
 
@@ -225,14 +234,14 @@ main
  height: 400px;
  display: flex;
  justify-content: space-between;
- border-radius: 25px;
 }
 
 #activity_block
 {
-    width: 300px;
+    width: 320px;
     height: 400px;
-    box-shadow: 10px 10px 8px 10px #F2F2F2;
+    background-color: aqua;
+    border-radius: 25px;
 }
 
 
