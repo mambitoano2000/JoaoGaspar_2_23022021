@@ -168,7 +168,7 @@ main
 
 }
 
-#accomodation_section footer
+#accomodation_footer
 
 {
     width: 900px;
@@ -254,6 +254,8 @@ main
     font-weight: bold;
 }
 
+/* Main - Section 2 - Blocks */
+
 #activities_blocks 
 {
  width: 1400px;
@@ -261,6 +263,8 @@ main
  display: flex;
  justify-content: space-between;
 }
+
+/* Main - Section 2 - Types of Blocks */
 
 #activity_block
 {
@@ -279,6 +283,8 @@ main
     flex-direction: column;
     justify-content: space-between;
 }
+
+/* Main - Section 2 - Divs inside Block 2 Type */
 
 #activity_fort
 {
@@ -310,4 +316,32 @@ footer
     display: flex;
     justify-content: space-between;
     background-color: #F2F2F2;
+    height: 140px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+footer h2
+{
+    font-size: 1em;
+}
+
+footer ul
+{
+    list-style-type: none;  
+    padding-inline-start: 0px;
+}
+
+footer ul li
+
+{
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: black;
 }
