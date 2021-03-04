@@ -185,19 +185,56 @@ main
     font-size: 0.8em;
     padding-left: 20px;
     padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 #accomodation_section aside img
 {
-    height: 25%;
-    width: 25%;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px 0px 0px 25px;
+    object-fit: cover;
 }
+
+/* Main - Section 1 - Aside - Header */
 
 #accomodation_section aside header
 {
     display: flex;
     justify-content: space-between;
-    width: 350px;
+    width: 330px;
+    height: 25px;
+}
+
+#accomodation_section aside header i
+{
+    margin: auto;
+    padding-left: 120px;
+}
+
+/* Main - Section 1 - Aside - Blocks */
+
+.popularaccomodation_block
+{
+    width: 330px;
+    height: 140px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    text-align: justify;
+}
+
+.aside_figure
+{
+    margin: 6px;
+    width: 115px;
+}
+
+.popularaccomodation_text_block
+{
+    width: 130px;
 }
 
 /* Main - Section 2 */
