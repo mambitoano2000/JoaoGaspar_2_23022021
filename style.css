@@ -26,6 +26,25 @@ body
     margin: auto;
 }
 
+i
+{
+    color: #0065FC;
+    font-size: 0.8em;
+}
+/* General elements of the page - specific icon colors*/
+
+.black
+
+{
+    color: black;
+}
+
+.grey
+
+{
+   color: #F2F2F2;
+}
+
 /* Header */
 
 header .wrapper
