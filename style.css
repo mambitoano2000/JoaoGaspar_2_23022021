@@ -154,7 +154,7 @@ i.fas.fa-map-marker-alt.black
 {
     display: block;
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .search_input
@@ -241,6 +241,11 @@ i.fas.fa-map-marker-alt.black
     border-radius: 50%;
 }
 
+.icons_filters
+{
+    font-size: 1em;
+}
+
 .filters_text
 {
     height: 50px;
@@ -291,11 +296,28 @@ input[type=checkbox]:checked + .cheked_box
     color: black;
 }
 
-#filters p
+#information_paragraph
 {
-   
+    font-size: 1.125em;
+    display: flex;
+    margin-top: 15px;
 }
 
+.information
+{
+  width: 30px;
+  height: 30px;
+  border: 2px solid #F2F2F2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+#information_paragraph p
+{
+  margin: 6.5px;
+}
 
 /* Main */
 
