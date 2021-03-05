@@ -55,7 +55,7 @@ header .wrapper
 
 header
 {
-    height: 350px;
+    height: 375px;
 }
 
 /* Header  - Logo and Nav */
@@ -296,11 +296,13 @@ input[type=checkbox]:checked + .cheked_box
     color: black;
 }
 
+/* Header  - Filters - Information paragraph*/
+
 #information_paragraph
 {
-    font-size: 1.125em;
+    font-size: 1.1em;
     display: flex;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .information
@@ -332,7 +334,7 @@ main
 #accomodation_section
 {
     width: 1400px;
-    height: 600px;
+    height: 715px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
@@ -350,8 +352,8 @@ main
 
 #accomodation_section article
 {
-    width: 1000px;
-    height: 600px;
+    width: 970px;
+    height: 715px;
     background-color: #F2F2F2;
     border-radius: 25px;
 }
@@ -360,7 +362,8 @@ main
 
 {
     width: 900px;
-    height: 50px;
+    height: 65px;
+    margin-left: 35px;
 }
 
 #accomodation_blocks
@@ -370,15 +373,16 @@ main
     justify-content: space-around;
     padding-left: 20px;
     padding-right: 20px;
+    height: 550px;
 }
 
 #accomodation_block
 {
   background-color: white;  
-  width: 280px;
-  height: 200px;
+  width: 267px;
+  height: 235px;
   margin: 10px;
-  padding: 10px;
+  padding: 5px;
   border-radius: 25px;
   font-size: 0.8em;
 }
@@ -400,8 +404,8 @@ main
 
 #accomodation_section aside
 {
-    width: 330px;
-    height: 600px;
+    width: 360px;
+    height: 715px;
     background-color: #F2F2F2;
     border-radius: 25px;
     font-size: 0.8em;
@@ -441,8 +445,8 @@ main
 
 .popularaccomodation_block
 {
-    width: 330px;
-    height: 140px;
+    width: 350px;
+    height: 165px;
     background-color: white;
     border-radius: 25px;
     display: flex;
