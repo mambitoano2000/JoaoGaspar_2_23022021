@@ -119,13 +119,14 @@ h1
 
 #search
 {
-    height: 120px;
+    height: 140px;
     margin-bottom: 20px;
 }
 
 #search p
 {
     margin-block-start: 0em;
+    font-size: 1.050em;
 }
 
 /* Header  - Title and search - search button */
@@ -133,7 +134,7 @@ h1
 #searchbouton
 {
     display: flex;
-    height: 40px;
+    height: 55px;
     margin: 0px;
 }
 
@@ -142,8 +143,8 @@ h1
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
-    width: 50px;
+    height: 55px;
+    width: 55px;
     background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     margin: 0px;
@@ -159,8 +160,8 @@ i.fas.fa-map-marker-alt.black
 .search_input
 {
     display: block;
-    height: 40px;
-    width: 220px;
+    height: 55px;
+    width: 242px;
     border-color: #F2F2F2;
     border-style: solid;
     border-left: none;
@@ -174,12 +175,13 @@ i.fas.fa-map-marker-alt.black
     display: block;
     background-color: #0065FC;
     border: none;
-    height: 40px;
-    width: 110px;
+    height: 55px;
+    width: 150px;
     color: white;
     border-radius: 0px 15px 15px 0px;
     align-items: flex-start;
     margin: 0px;
+    font-size: 1.3em;
 }
 
 /* Header  - Filters */
@@ -187,19 +189,14 @@ i.fas.fa-map-marker-alt.black
 #filters form
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 1025px;
-}
-
-#filters form p
-{
-    margin-left: 10px;
+    font-size: 1.2em;
 }
 
 .filters_block
 {
-  width: 200px;
-  height: 40px;
+  height: 50px;
   text-align: center;
   display: flex;
   border-radius: 25px 25px 25px 25px;
@@ -207,15 +204,35 @@ i.fas.fa-map-marker-alt.black
   border-left: none;
 }
 
+.filters_block:hover
+{
+    background-color: rgb(222,236,255);
+}
+
+.economique
+{
+    width: 205px; 
+}
+
+.familial
+{
+    width: 160px;
+}
+
+.romantique
+{
+    width: 205px;
+}
+
 .animaux
 {
-    width: 200px; 
+    width: 250px;
 }
 
 .filters_icons
 {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -226,7 +243,7 @@ i.fas.fa-map-marker-alt.black
 
 .filters_text
 {
-    height: 40px;
+    height: 50px;
     width: 160px;
     border-radius: 0px 25px 25px 0px;
     display: flex;
@@ -236,21 +253,37 @@ i.fas.fa-map-marker-alt.black
     font-weight: bold;
 }
 
+.economique_text
+{
+    width: 155px;
+}
+
+.familial_text
+{
+    width: 110px;
+}
+
+.romantique_text
+{
+    width: 155px;
+}
+
 .animaux_text
 {
-    width: 160px;
+    width: 200px;
 }
 
 .cheked_box
 {
-    background-color: white;
+    
 }
 
 #filters form input[type=checkbox]
 {
    display: none;
-   height: 40px;
+   height: 50px;
 }
+
 
 input[type=checkbox]:checked + .cheked_box
 {
