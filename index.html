@@ -13,7 +13,7 @@
         <div class="wrapper">
             <div id="navigation">
                 <img src="images/logo/reservia.svg" alt="Logo de Reservia" />
-        
+
                 <nav>
                     <ul>
                         <li><a href="#accomodation_section">Hébergements</a></li>
@@ -22,7 +22,7 @@
                     </ul>
                 </nav>
             </div>
-        
+
             <div id="search">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
@@ -38,35 +38,59 @@
             <div id="filters">
                 <form method="post" action="#">
                     <p><strong>Filtres</strong></p>
-                    <div id="economique_filter">
-                        <i class="fas fa-money-bill-wave"></i>
 
-                        <input type="checkbox" name="filters" id="economique" /> <label class="cheked_box"
-                            for="economique">Économique</label>
+                    <div class="filters_block">
+
+                        <div class="filters_icons">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+
+
+                        <div class="filters_text">
+                            <input type="checkbox" name="filters" id="economique" /> <label class="cheked_box"
+                                for="economique">Économique</label>
+                        </div>
                     </div>
 
-                    <div id="familial_filter">
-                        <i class="fas fa-child"></i>
+                    <div class="filters_block">
 
-                        <input type="checkbox" name="filters" id="familial" /> <label class="cheked_box" for="familial">Familial</label>
+                        <div class="filters_icons">
+                            <i class="fas fa-child"></i>
+                        </div>
+
+                        <div class="filters_text">
+                            <input type="checkbox" name="filters" id="familial" /> <label class="cheked_box"
+                                for="familial">Familial</label>
+                        </div>
                     </div>
 
-                    <div id="romantique_filter">
-                        <i class="fas fa-heart"></i>
+                    <div class="filters_block">
 
-                        <input type="checkbox" name="filters" id="romantique" /> <label class="cheked_box"
-                            for="romantique">Romantique</label>
+                        <div class="filters_icons">
+                            <i class="fas fa-heart"></i>
+                        </div>
+
+                        <div class="filters_text">
+                            <input type="checkbox" name="filters" id="romantique" /> <label class="cheked_box"
+                                for="romantique">Romantique</label>
+                        </div>
                     </div>
 
-                    <div id="animaux_filter">
-                        <i class="fas fa-dog"></i>
+                    <div class="filters_block animaux">
 
-                        <input type="checkbox" name="filters" id="animaux" /> <label class="cheked_box" for="animaux">Animaux
-                            autorisés</label>
+                        <div class="filters_icons">
+                            <i class="fas fa-dog"></i>
+                        </div>
+
+                        <div class="filters_text animaux_text">
+                        <input type="checkbox" name="filters" id="animaux" /> <label class="cheked_box"
+                            for="animaux">Animaux
+                            autorisés</label></div>
                     </div>
-                </form>
-                <p><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
+            </form>
+            <p><i class="fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
         </div>
     </header>
 

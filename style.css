@@ -120,6 +120,7 @@ h1
 #search
 {
     height: 120px;
+    margin-bottom: 20px;
 }
 
 #search p
@@ -186,6 +187,58 @@ i.fas.fa-map-marker-alt.black
 #filters form
 {
     display: flex;
+    justify-content: space-around;
+    width: 1025px;
+}
+
+#filters form p
+{
+    margin-left: 10px;
+}
+
+.filters_block
+{
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  border-radius: 25px 25px 25px 25px;
+  border: 2px solid #F2F2F2;
+  border-left: none;
+}
+
+.animaux
+{
+    width: 200px; 
+}
+
+.filters_icons
+{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222,236,255) ;
+    border-radius: 50%;
+}
+
+.filters_text
+{
+    height: 40px;
+    width: 160px;
+    border-radius: 0px 25px 25px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.animaux_text
+{
+    width: 160px;
 }
 
 .cheked_box
@@ -196,6 +249,7 @@ i.fas.fa-map-marker-alt.black
 #filters form input[type=checkbox]
 {
    display: none;
+   height: 40px;
 }
 
 input[type=checkbox]:checked + .cheked_box
@@ -204,6 +258,10 @@ input[type=checkbox]:checked + .cheked_box
     color: black;
 }
 
+#filters p
+{
+   
+}
 
 
 /* Main */
