@@ -22,7 +22,7 @@ body
 
 .wrapper
 {
-    width: 1500px;
+    width: auto;
     margin: auto;
 }
 
@@ -49,13 +49,13 @@ i
 
 header .wrapper
 {
- width: 1400px;
+ width: auto;
 
 }
 
 header
 {
-    height: 375px;
+    height: auto;
 }
 
 /* Header  - Logo and Nav */
@@ -336,7 +336,7 @@ input[type=checkbox]:checked + .cheked_box
 
 main
 {
-    width: 1400px;
+    width: auto;
     margin: auto;
 }
 
@@ -345,9 +345,10 @@ main
 
 #accomodation_section
 {
-    width: 1400px;
-    height: 715px;
+    width: auto;
+    height: auto;
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-between;
     margin-bottom: 60px;
 }
@@ -364,9 +365,9 @@ main
 
 #accomodation_section article
 {
-    width: 970px;
-    height: 715px;
-    background-color: #F2F2F2;
+    width: auto;
+    height: auto;
+    background-color: white;
     border-radius: 25px;
 }
 
@@ -375,7 +376,7 @@ main
 #accomodation_section .title_accomodation
 
 {
-    width: 900px;
+    width: auto;
     height: 65px;
     margin-left: 35px;
 }
@@ -383,25 +384,26 @@ main
 #accomodation_blocks
 {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     padding-left: 20px;
     padding-right: 20px;
-    height: 550px;
+    height: auto;
 }
 
 #accomodation_blocks a
 {
     text-decoration: none;
     color: black;
-    height: 260px;
+    height: auto;
 }
 
 .accomodation_block
 {
   background-color: white;  
-  width: 267px;
-  height: 235px;
+  width: 900px;
+  height: 635px;
   margin: 10px;
   padding: 5px;
   border-radius: 25px;
@@ -418,15 +420,15 @@ main
 #accomodation_footer
 
 {
-    width: 180px;
-    height: 50px;
+    width: auto;
+    height: auto;
 }
 
 #accomodation_footer p
 
 {
     margin-left: 37px;
-    width: 100px;
+    width: auto;
 }
 
 
@@ -446,8 +448,8 @@ main
 
 #accomodation_section aside
 {
-    width: 360px;
-    height: 715px;
+    width: auto;
+    height: 1300px;
     background-color: #F2F2F2;
     border-radius: 25px;
     font-size: 0.8em;
@@ -461,7 +463,7 @@ main
 #accomodation_section aside img
 {
     height: 100%;
-    width: 100%;
+    width: 250%;
     border-radius: 25px 0px 0px 25px;
     object-fit: cover;
 }
@@ -478,7 +480,7 @@ main
 {
     display: flex;
     justify-content: space-between;
-    width: 350px;
+    width: auto;
     height: 25px;
 }
 
@@ -487,6 +489,7 @@ main
     margin-block-start: 8px;
     margin-block-end: 0em;
     margin-left: 8px;
+    font-size: 5em;
 }
 
 #accomodation_section aside header i
@@ -500,12 +503,12 @@ main
 
 .popularaccomodation_block
 {
-    width: 350px;
-    height: 165px;
+    width: 900px;
+    height: 350px;
     background-color: white;
     border-radius: 25px;
     display: flex;
-    text-align: justify;
+    text-align: center;
 }
 
 .aside_figure
@@ -516,15 +519,15 @@ main
 
 .popularaccomodation_text_block
 {
-    width: 130px;
+    width: 730px;
 }
 
 /* Main - Section 2 */
 
 #activities_section
 {
-    width: 1400px;
-    height: 600px;
+    width: auto;
+    height: auto;
 }
 
 .photo_big
@@ -537,7 +540,7 @@ main
 
 #photo_small_1
 {
-    height: 220px;
+    height: 450px;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
     object-fit: cover;
@@ -545,7 +548,7 @@ main
 
 #photo_small_2
 {
-    height: 140px;
+    height: 450px;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
     object-fit: cover;
@@ -553,7 +556,7 @@ main
 
 #photo_small_3
 {
-    height: 80%;
+    height: 450px;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
     object-fit: cover;
@@ -561,7 +564,7 @@ main
 
 #photo_small_4
 {
-    height: 180px;
+    height: 450px;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
     object-fit: cover;
@@ -584,9 +587,10 @@ main
 
 #activities_blocks 
 {
- width: 1400px;
- height: 500px;
+ width: auto;
+ height: auto;
  display: flex;
+ flex-direction: column;
  justify-content: space-between;
 }
 
@@ -604,7 +608,7 @@ main
 
 .activity_block
 {
-    width: 320px;
+    width: 980px;
     height: 500px;
     border-radius: 25px;
     box-shadow: 6px 6px 16px #F2F2F2;
@@ -612,8 +616,8 @@ main
 
 .activity_block_2_activities
 {
-    width: 320px;
-    height: 500px;
+    width: 980px;
+    height: 1000px;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -624,7 +628,8 @@ main
 
 #activity_fort
 {
-    height: 270px;
+    height: 500px;
+    width: 980px;
     border-radius: 25px;
     box-shadow: 6px 6px 16px #F2F2F2;
 }
@@ -632,14 +637,15 @@ main
 #activity_iles
 {
     border-radius: 25px;
-    height: 190px;
+    height: 500px;
+    width: 980px;
     box-shadow: 6px 6px 16px #F2F2F2;
 }
 
 .activity_mini_block
 
 {
-    height: 230px;
+    height: 500px;
     border-radius: 25px;
     box-shadow: 6px 6px 16px #F2F2F2;
 }
@@ -654,7 +660,7 @@ footer
 footer .wrapper
 {
     
-    width: 1500px;
+    width: auto;
     background-color: #F2F2F2;
 
 }
@@ -662,10 +668,11 @@ footer .wrapper
 footer #footer_body
 {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     background-color: #F2F2F2;
-    height: 140px;
-    width: 1150px;
+    height: auto;
+    width: auto;
     padding-top: 30px;
     padding-left: 40px;
 }
