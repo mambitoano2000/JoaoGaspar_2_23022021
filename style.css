@@ -42,7 +42,7 @@ i
 .grey
 
 {
-   color: #F2F2F2;
+   color: #535353c5;
 }
 
 /* Header */
@@ -134,8 +134,8 @@ h1
 #searchbouton
 {
     display: flex;
-    height: 55px;
-    margin: 0px;
+    height: 47px;
+    margin-top: 20px;
 }
 
 .location 
@@ -143,8 +143,8 @@ h1
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 55px;
-    width: 55px;
+    height: 47px;
+    width: 47px;
     background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     margin: 0px;
@@ -160,7 +160,7 @@ i.fas.fa-map-marker-alt.black
 .search_input
 {
     display: block;
-    height: 55px;
+    height: 47px;
     width: 242px;
     border-color: #F2F2F2;
     border-style: solid;
@@ -168,6 +168,15 @@ i.fas.fa-map-marker-alt.black
     border-right: none;
     margin: 0px;
     font: bold 1em "Raleway";
+    outline-style: none;
+    text-indent: 20px;
+    padding: 0px;
+}
+
+.search_input:focus
+{
+    border: black solid 1px;
+    border-right: none;
 }
 
 .submit
@@ -175,13 +184,15 @@ i.fas.fa-map-marker-alt.black
     display: block;
     background-color: #0065FC;
     border: none;
-    height: 55px;
+    height: 47px;
     width: 150px;
     color: white;
     border-radius: 0px 15px 15px 0px;
     align-items: flex-start;
     margin: 0px;
-    font-size: 1.3em;
+    font-size: 1.050em;
+    cursor: pointer;
+    outline: none;
 }
 
 /* Header  - Filters */
@@ -206,7 +217,7 @@ i.fas.fa-map-marker-alt.black
 
 .filters_block:hover
 {
-    background-color: rgb(222,236,255);
+    background-color: rgb(246, 249, 255);
 }
 
 .economique
@@ -376,7 +387,7 @@ main
     height: 550px;
 }
 
-#accomodation_block
+.accomodation_block
 {
   background-color: white;  
   width: 267px;
@@ -387,7 +398,7 @@ main
   font-size: 0.8em;
 }
 
-#accomodation_block h3
+.accomodation_block h3
 {
     font-size: 1.1em;
     font-weight: bold;
@@ -398,6 +409,7 @@ main
 
 {
     width: 900px;
+    margin: auto;
 }
 
 /* Main - Section 1 - Aside */
@@ -430,15 +442,22 @@ main
 {
     display: flex;
     justify-content: space-between;
-    width: 330px;
+    width: 350px;
     height: 25px;
+}
+
+#accomodation_section aside h2
+{
+    margin-block-start: 8px;
+    margin-block-end: 0em;
+    margin-left: 8px;
 }
 
 #accomodation_section aside header i
 {
-    margin: auto;
-    padding-left: 120px;
     font-size: 1.5em;
+    margin-top: 8px;
+    margin-left: 5px;
 }
 
 /* Main - Section 1 - Aside - Blocks */
@@ -472,7 +491,7 @@ main
     height: 600px;
 }
 
-#photo_big
+.photo_big
 {
     height: 450px;
     width: 100%;
@@ -535,9 +554,13 @@ main
  justify-content: space-between;
 }
 
+#activities_blocks h3
+{
+    padding-left: 25px;
+}
 /* Main - Section 2 - Types of Blocks */
 
-#activity_block
+.activity_block
 {
     width: 320px;
     height: 500px;
@@ -545,7 +568,7 @@ main
     box-shadow: 6px 6px 16px #F2F2F2;
 }
 
-#activity_block_2_activities
+.activity_block_2_activities
 {
     width: 320px;
     height: 500px;
@@ -571,7 +594,7 @@ main
     box-shadow: 6px 6px 16px #F2F2F2;
 }
 
-#activity_mini_block
+.activity_mini_block
 
 {
     height: 230px;

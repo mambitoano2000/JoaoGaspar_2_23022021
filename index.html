@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
     <meta charset="utf-8" />
@@ -18,7 +18,7 @@
                     <ul>
                         <li><a href="#accomodation_section">Hébergements</a></li>
                         <li><a href="#activities_section">Activités</a></li>
-                        <li><a href="#"><strong>S'inscrire</strong></a></li>
+                        <li><a href=""><strong>S'inscrire</strong></a></li>
                     </ul>
                 </nav>
             </div>
@@ -30,13 +30,13 @@
                     <div class="location">
                         <i class="fas fa-map-marker-alt black"></i>
                     </div>
-                    <input class="search_input" type=search />
+                    <input class="search_input" type=search placeholder="Chercher un hébergement" />
                     <input class="submit" type="submit" value="Rechercher">
                 </div>
             </div>
 
             <div id="filters">
-                <form method="post" action="#">
+                <form method="post" action="action_page.php">
                     <p><strong>Filtres</strong></p>
 
                     <div class="filters_block economique">
@@ -83,17 +83,19 @@
                         </div>
 
                         <div class="filters_text animaux_text">
-                        <input type="checkbox" name="filters" id="animaux" /> <label class="cheked_box"
-                            for="animaux">Animaux
-                            autorisés</label></div>
+                            <input type="checkbox" name="filters" id="animaux" /> <label class="cheked_box"
+                                for="animaux">Animaux
+                                autorisés</label>
+                        </div>
                     </div>
+                </form>
             </div>
-            </form>
+
             <div id="information_paragraph">
                 <div class="information"><i class="fas fa-info"></i></div>
 
-             <p>Plus de 500 logements sont disponibles dans cette ville</p>
-        </div>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
         </div>
     </header>
 
@@ -106,7 +108,7 @@
                     </div>
 
                     <div id="accomodation_blocks">
-                        <div id="accomodation_block">
+                        <div class="accomodation_block">
                             <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                                 alt="Photo de l'Auberge la Cannebière" />
                             <h3>Auberge la Cannebière</h3>
@@ -119,7 +121,7 @@
 
                         </div>
 
-                        <div id="accomodation_block">
+                        <div class="accomodation_block">
                             <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                                 alt="Photo de l'Hôtel du port" />
                             <h3>Hôtel du port</h3>
@@ -131,7 +133,7 @@
                             <i class="fas fa-star"></i>
                         </div>
 
-                        <div id="accomodation_block">
+                        <div class="accomodation_block">
                             <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                                 alt="Photo de l'Hôtel Les mouettes" />
                             <h3>Hôtel Les mouettes</h3>
@@ -143,7 +145,7 @@
                             <i class="fas fa-star grey"></i>
                         </div>
 
-                        <div id="accomodation_block">
+                        <div class="accomodation_block">
                             <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                                 alt="Photo de l' Hôtel de la mer" />
                             <h3>Hôtel de la mer</h3>
@@ -155,7 +157,7 @@
                             <i class="fas fa-star grey"></i>
                         </div>
 
-                        <div id="accomodation_block">
+                        <div class="accomodation_block">
                             <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                                 alt="Photo de l'Auberge Le Panier" />
                             <h3>Auberge Le Panier</h3>
@@ -167,7 +169,7 @@
                             <i class="fas fa-star grey"></i>
                         </div>
 
-                        <div id="accomodation_block">
+                        <div class="accomodation_block">
                             <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                                 alt="Hôtel chez Amina" />
                             <h3>Hôtel chez Amina</h3>
@@ -251,13 +253,13 @@
 
                     <div id="activities_blocks">
 
-                        <div id="activity_block">
-                            <img id="photo_big" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                        <div class="activity_block">
+                            <img class="photo_big" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                                 alt="Photo du Vieux Port" />
                             <h3>Vieux Port</h3>
                         </div>
 
-                        <div id="activity_block_2_activities">
+                        <div class="activity_block_2_activities">
                             <div id="activity_fort">
                                 <img id="photo_small_1"
                                     src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
@@ -273,22 +275,22 @@
                             </div>
                         </div>
 
-                        <div id="activity_block">
-                            <img id="photo_big"
+                        <div class="activity_block">
+                            <img class="photo_big"
                                 src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                                 alt="Photo du Parc National des Calanques" />
                             <h3>Parc National des Calanques</h3>
                         </div>
 
-                        <div id="activity_block_2_activities">
-                            <div id="activity_mini_block">
+                        <div class="activity_block_2_activities">
+                            <div class="activity_mini_block">
                                 <img id="photo_small_3"
                                     src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                                     alt="Photo de Notre-Dame-de-la-Garde" />
                                 <h3>Notre-Dame-de-la-Garde</h3>
                             </div>
 
-                            <div id="activity_mini_block">
+                            <div class="activity_mini_block">
                                 <img id="photo_small_4"
                                     src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
                                     alt="Photo du Parc Longchamp" />
