@@ -340,6 +340,7 @@ main
     margin: auto;
 }
 
+
 /* Main - Section 1 */
 
 #accomodation_section
@@ -369,6 +370,8 @@ main
     border-radius: 25px;
 }
 
+
+
 #accomodation_section .title_accomodation
 
 {
@@ -385,6 +388,13 @@ main
     padding-left: 20px;
     padding-right: 20px;
     height: 550px;
+}
+
+#accomodation_blocks a
+{
+    text-decoration: none;
+    color: black;
+    height: 260px;
 }
 
 .accomodation_block
@@ -408,9 +418,29 @@ main
 #accomodation_footer
 
 {
-    width: 900px;
-    margin: auto;
+    width: 180px;
+    height: 50px;
 }
+
+#accomodation_footer p
+
+{
+    margin-left: 37px;
+    width: 100px;
+}
+
+
+
+#accomodation_footer a
+
+{
+ 
+    margin: 0;
+    width: 100px;
+    text-decoration: none;
+    color: black;
+}
+
 
 /* Main - Section 1 - Aside */
 
@@ -434,6 +464,12 @@ main
     width: 100%;
     border-radius: 25px 0px 0px 25px;
     object-fit: cover;
+}
+
+#accomodation_section aside a
+{
+    text-decoration: none;
+    color: black;
 }
 
 /* Main - Section 1 - Aside - Header */
@@ -557,6 +593,12 @@ main
 #activities_blocks h3
 {
     padding-left: 25px;
+}
+
+#activities_blocks a
+{
+    text-decoration: none;
+    color: black;
 }
 /* Main - Section 2 - Types of Blocks */
 
