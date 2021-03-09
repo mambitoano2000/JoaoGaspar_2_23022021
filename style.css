@@ -69,7 +69,9 @@ header
 #navigation nav
 {
     height: 50px;
-    width: 400px;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #navigation ul
@@ -768,21 +770,28 @@ header
 {
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    background-image: url ("images/logo/reservia.svg");
+}
+
+#navigation img
+{
+    display: none;
 }
 
 #navigation nav
 {
     height: auto;
-    width: auto;
+    width: 100%;
 }
 
 #navigation ul
 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
     list-style-type: none;
+    align-items: flex-end;
     padding: 0;
     margin-block-start: 0em;
     margin-block-end: 0em;
@@ -793,12 +802,26 @@ header
     font-weight: 400;
 }
 
+.element:nth-child(1)
+{
+    order: 2;
+}
+.element:nth-child(2)
+{
+    order: 1;
+}
+.element:nth-child(3)
+{
+    order: 3;
+}
+
 #navigation li
 {
    display: block;
    padding-top: 30px;
-   width: 200px;
    text-align: center;
+   width: 200px;
+  
 }
 
 #navigation li a
