@@ -18,6 +18,7 @@ body
 {
     font-family: 'Raleway', Arial, sans-serif;
     color: black;
+    margin: 0;
 }
 
 .wrapper
@@ -55,7 +56,7 @@ header .wrapper
 
 header
 {
-    height: 375px;
+    
 }
 
 /* Header  - Logo and Nav */
@@ -66,34 +67,29 @@ header
     justify-content: space-between;
 }
 
-#navigation nav
+#navigation img
 {
-    height: 50px;
-    width: 1400px;
-    display: flex;
-    justify-content: space-between;
+    padding-top: 25px;
 }
 
 #navigation ul
 {
     display: flex;
-    justify-content: space-around;
     list-style-type: none;
     padding: 0;
     margin-block-start: 0em;
     margin-block-end: 0em;
-    height: 50px;
-    width: 400px;
     text-align: end;
     font-size: 1em;
     font-weight: 400;
+    margin-left: 900px;
 }
 
 #navigation li
 {
    display: block;
    padding-top: 30px;
-   width: 111px;
+   width: 150px;
    text-align: center;
 }
 
@@ -108,9 +104,17 @@ header
     border-top: solid 1px #0065FC;
 }
 
-#navigation a:visited
+#navigation p
 {
-    
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-top: 30px;
+}
+
+#navigation p a
+{
+    text-decoration: none;
+    color: #0065FC;
 }
 
 /* Header  - Title and search */
@@ -123,8 +127,7 @@ h1
 
 #search
 {
-    height: 140px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #search p
@@ -138,8 +141,6 @@ h1
 #searchbouton
 {
     display: flex;
-    height: 47px;
-    margin-top: 20px;
 }
 
 .location 
@@ -165,7 +166,7 @@ i.fas.fa-map-marker-alt.black
 {
     display: block;
     height: 47px;
-    width: 242px;
+    width: 250px;
     border-color: #F2F2F2;
     border-style: solid;
     border-left: none;
@@ -189,7 +190,7 @@ i.fas.fa-map-marker-alt.black
     background-color: #0065FC;
     border: none;
     height: 47px;
-    width: 150px;
+    width: 145px;
     color: white;
     border-radius: 0px 15px 15px 0px;
     align-items: flex-start;
@@ -201,11 +202,16 @@ i.fas.fa-map-marker-alt.black
 
 /* Header  - Filters */
 
+#filters
+{
+    padding-right: 380px;
+    margin-bottom: 30px;
+}
+
 #filters form
 {
     display: flex;
     justify-content: space-between;
-    width: 1025px;
     font-size: 1.2em;
 }
 
@@ -317,7 +323,7 @@ input[type=checkbox]:checked + .cheked_box
 {
     font-size: 1.1em;
     display: flex;
-    margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 .information
@@ -338,10 +344,15 @@ input[type=checkbox]:checked + .cheked_box
 
 /* Main */
 
-main
+main .wrapper
 {
     width: 1400px;
     margin: auto;
+}
+
+main
+{
+    margin-bottom: 40px;
 }
 
 
@@ -349,29 +360,20 @@ main
 
 #accomodation_section
 {
-    width: 1400px;
-    height: 715px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
 
-#accomodation_section article img
-{
-    height: 50%;
-    width: 100%;
-    border-radius: 25px 25px 0px 0px;
-    object-fit: cover;
-}
 
 /* Main - Section 1 - Article */
 
+
 #accomodation_section article
 {
-    width: 970px;
-    height: 715px;
     background-color: #F2F2F2;
     border-radius: 25px;
+    margin-right: 35px;
 }
 
 
@@ -379,9 +381,12 @@ main
 #accomodation_section .title_accomodation
 
 {
-    width: 900px;
-    height: 65px;
-    margin-left: 35px;
+    margin-left: 40px;
+}
+
+#accomodation_section .title_accomodation h2
+{
+    margin-block-start: 1.6em;
 }
 
 #accomodation_blocks
@@ -391,7 +396,14 @@ main
     justify-content: space-around;
     padding-left: 20px;
     padding-right: 20px;
-    height: 550px;
+}
+
+#accomodation_section article img
+{
+    height: 60%;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
 }
 
 #accomodation_blocks a
@@ -404,33 +416,49 @@ main
 .accomodation_block
 {
   background-color: white;  
-  width: 267px;
-  height: 235px;
-  margin: 10px;
+  width: 275px;
+  height: 220px;
   padding: 5px;
   border-radius: 25px;
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .accomodation_block h3
 {
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: bold;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    padding-left: 15px;
 
+}
+
+.accomodation_block p
+{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    padding-left: 15px;
+}
+
+.accomodation_block p + i
+{
+    padding-left: 15px;
 }
 
 #accomodation_footer
 
 {
-    width: 180px;
-    height: 50px;
+
 }
 
 #accomodation_footer p
 
 {
-    margin-left: 37px;
-    width: 100px;
+    margin-left: 40px;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-block-start: 0.3em;
+    margin-block-end: 3em;
 }
 
 
@@ -440,7 +468,6 @@ main
 {
  
     margin: 0;
-    width: 100px;
     text-decoration: none;
     color: black;
 }
@@ -450,13 +477,12 @@ main
 
 #accomodation_section aside
 {
-    width: 360px;
-    height: 715px;
     background-color: #F2F2F2;
     border-radius: 25px;
     font-size: 0.8em;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -482,8 +508,6 @@ main
 {
     display: flex;
     justify-content: space-between;
-    width: 350px;
-    height: 25px;
 }
 
 #accomodation_section aside h2
@@ -491,12 +515,14 @@ main
     margin-block-start: 8px;
     margin-block-end: 0em;
     margin-left: 8px;
+    font-size: 24px;
+    padding-top: 20px;
 }
 
 #accomodation_section aside header i
 {
-    font-size: 1.5em;
-    margin-top: 8px;
+    font-size: 24px;
+    margin-top: 30px;
     margin-left: 5px;
 }
 
@@ -504,7 +530,7 @@ main
 
 .popularaccomodation_block
 {
-    width: 350px;
+    width: 330px;
     height: 165px;
     background-color: white;
     border-radius: 25px;
@@ -520,15 +546,31 @@ main
 
 .popularaccomodation_text_block
 {
-    width: 130px;
+    width: 150px;
+    padding-left: 5px;
+}
+
+.popularaccomodation_text_block h3
+{
+    font-size: 17.28px;
+}
+
+.popularaccomodation_text_block p
+{
+    font-size: 14.4px;
+}
+
+.popularaccomodation_text_block i
+{
+    font-size: 11.52px;
+    padding-top: 30px;
 }
 
 /* Main - Section 2 */
 
 #activities_section
 {
-    width: 1400px;
-    height: 600px;
+
 }
 
 .photo_big
@@ -541,7 +583,7 @@ main
 
 #photo_small_1
 {
-    height: 220px;
+    height: 235px;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
     object-fit: cover;
@@ -557,7 +599,7 @@ main
 
 #photo_small_3
 {
-    height: 80%;
+    height: 185px;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
     object-fit: cover;
@@ -565,7 +607,7 @@ main
 
 #photo_small_4
 {
-    height: 180px;
+    height: 185px;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
     object-fit: cover;
@@ -573,23 +615,24 @@ main
 
 #activities_section h3
 {
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: bold;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    padding-bottom: 10px;
 }
 
 /* Main - Section 2 - Header */
 
 #activities_section header
 {
-    height: 40px;
+    
 }
 
 /* Main - Section 2 - Blocks */
 
 #activities_blocks 
 {
- width: 1400px;
- height: 500px;
  display: flex;
  justify-content: space-between;
 }
@@ -609,7 +652,6 @@ main
 .activity_block
 {
     width: 320px;
-    height: 500px;
     border-radius: 25px;
     box-shadow: 6px 6px 16px #F2F2F2;
 }
@@ -617,7 +659,6 @@ main
 .activity_block_2_activities
 {
     width: 320px;
-    height: 500px;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -628,7 +669,6 @@ main
 
 #activity_fort
 {
-    height: 270px;
     border-radius: 25px;
     box-shadow: 6px 6px 16px #F2F2F2;
 }
@@ -636,14 +676,12 @@ main
 #activity_iles
 {
     border-radius: 25px;
-    height: 190px;
     box-shadow: 6px 6px 16px #F2F2F2;
 }
 
 .activity_mini_block
 
 {
-    height: 230px;
     border-radius: 25px;
     box-shadow: 6px 6px 16px #F2F2F2;
 }
@@ -668,10 +706,9 @@ footer #footer_body
     display: flex;
     justify-content: space-between;
     background-color: #F2F2F2;
-    height: 140px;
-    width: 1150px;
     padding-top: 30px;
     padding-left: 40px;
+    padding-right: 400px;
 }
 
 footer h2
