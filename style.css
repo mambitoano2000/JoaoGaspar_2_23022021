@@ -198,7 +198,17 @@ i.fas.fa-map-marker-alt.black
     font-size: 1.050em;
     cursor: pointer;
     outline: none;
+    
 }
+
+i.fas.fa-search
+{
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    position: absolute;
+    padding-left: 30px;
+    opacity: 0;
+    }
 
 /* Header  - Filters */
 
