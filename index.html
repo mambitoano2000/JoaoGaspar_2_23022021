@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="style.css" />
     <link href="fontawesome-free-5.15.2-web/css/all.css" rel="stylesheet">
     <title>Reservia</title>
@@ -106,7 +107,7 @@
     <main>
         <div class="wrapper">
             <section id="accomodation_section">
-                <article>
+                <article class="accomodation-block">
                     <div class="title_accomodation">
                         <h2>Hébergements à Marseille</h2>
                     </div>
@@ -204,12 +205,13 @@
                     </div>
                 </article>
 
-                <aside>
-                    <header>
+                <aside class="accomodation-block">
+                    <header class="title_accomodation">
                         <h2>Les plus populaires</h2>
                         <i class="fas fa-chart-line black"></i>
                     </header>
 
+                    <div class="accomodation">
                     <a href="">
                         <div class="popularaccomodation_block">
                             <figure class="aside_figure">
@@ -267,6 +269,7 @@
                             </div>
                         </div>
                     </a>
+                    </div>
                 </aside>
             </section>
 
