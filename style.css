@@ -23,7 +23,9 @@ body
 
 .wrapper
 {
-    width: 1500px;
+    max-width: 1400px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: auto;
 }
 
@@ -50,7 +52,7 @@ i
 
 header .wrapper
 {
- width: 1400px;
+
 
 }
 
@@ -61,15 +63,15 @@ header
 
 /* Header  - Logo and Nav */
 
-#navigation
+#navigation nav
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 #navigation img
 {
-    padding-top: 25px;
+    position: absolute;
 }
 
 #navigation ul
@@ -94,6 +96,12 @@ header
 }
 
 #navigation li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#navigation li a:hover
 {
     text-decoration: none;
     color: #0065FC;
@@ -356,8 +364,7 @@ input[type=checkbox]:checked + .cheked_box
 
 main .wrapper
 {
-    width: 1400px;
-    margin: auto;
+ 
 }
 
 main
@@ -697,7 +704,7 @@ footer
 footer .wrapper
 {
     
-    width: 1500px;
+
     background-color: #F2F2F2;
 
 }
@@ -740,4 +747,46 @@ footer a
 {
     /* Mobile rules */
 
- 
+/* General elements of the page */ 
+
+.wrapper
+{
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Header  - Logo and Nav */
+
+#navigation nav
+{
+    flex-wrap: wrap;
+}
+
+#navigation ul
+{
+    margin-left: 0;
+}
+
+
+
+
+/* Header  - Filters */
+
+#filters
+{
+    padding-right: 0px;
+}
+
+#filters form
+{
+    flex-wrap: wrap;
+}
+
+/* Main - Section 1 */
+
+#accomodation_section
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
