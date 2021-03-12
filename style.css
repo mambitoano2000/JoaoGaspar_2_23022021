@@ -72,6 +72,7 @@ header
 #navigation img
 {
     position: absolute;
+    margin-top: 15px;
 }
 
 #navigation ul
@@ -222,14 +223,20 @@ i.fas.fa-search
 
 #filters
 {
-    padding-right: 380px;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 30px;
+}
+
+#filters p
+{
+    margin-right: 30px;
+    font-size: 1.2em;
 }
 
 #filters form
 {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     font-size: 1.2em;
 }
@@ -242,6 +249,9 @@ i.fas.fa-search
   border-radius: 25px 25px 25px 25px;
   border: 2px solid #F2F2F2;
   border-left: none;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  
 }
 
 .filters_block:hover
@@ -745,6 +755,66 @@ footer a
     color: black;
 }
 
+
+@media all and (max-width: 1400px)
+{
+    /* Mobile rules */
+
+/* Main - Section 1*/
+
+
+    #accomodation_section
+    {
+        flex-direction: column;
+    }  
+    
+    #accomodation_section article 
+    {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    .accomodation
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    /* Footer 1*/
+
+    .footer_body_mobile
+{
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+}
+
+
+@media all and (max-width: 600px)
+{
+
+
+
+#navigation nav
+{
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: row;
+}
+
+#navigation nav p
+{
+    text-align: start;
+}
+
+}
+
+
+
+
 @media all and (max-width: 480px)
 {
     /* Mobile rules */
@@ -763,6 +833,13 @@ footer a
 #navigation nav
 {
     flex-wrap: wrap;
+    position: relative;
+    flex-direction: column-reverse;
+}
+
+#navigation nav p
+{
+    text-align: end;
 }
 
 #navigation ul
@@ -771,8 +848,19 @@ footer a
 }
 
 
+/* Header  - Search */
 
+.search_input
+{
+    width: auto;
+    text-indent: 5px;
+    font-size: 1em;
+}
 
+.submit
+{
+    width: auto;
+}
 /* Header  - Filters */
 
 #filters
@@ -817,12 +905,32 @@ footer a
 .popularaccomodation_block
 {
    width: auto;
+   padding: 5px;
 }
 
 .margin_popular
 {
     margin-bottom: 10px;
 }
+
+.popularaccomodation_text_block
+{
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+
+.aside_figure
+{
+    width: auto;
+    margin: 0px;
+}
+
+#accomodation_section aside img 
+{
+    width: 120px;
+}
+
 /* Main - Section 2 - Blocks */
 
 #activities_blocks 
