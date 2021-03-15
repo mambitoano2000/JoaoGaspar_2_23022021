@@ -804,6 +804,14 @@ footer a
         justify-content: space-around;
     }
 
+   /* Main - Section 2*/ 
+
+    .large
+{
+    width: 95%;
+}
+    
+
     /* Footer 1*/
 
     .footer_body_mobile
@@ -1168,6 +1176,47 @@ article .accomodation_block
     padding-right: 0px !important;
     flex-direction: column;
 }
+
+
+
+@media all and (max-width: 360px)
+{
+    #accomodation_section aside img 
+{
+   width: 120px;
+}
+
+
+.popularaccomodation_text_block
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.popularaccomodation_text_block p
+
+{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-bottom: 30px;
+}
+
+.popularaccomodation_text_block h3
+{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+
+.popularaccomodation_text_block i
+{
+    
+padding-top: 0px;
+}
+
+
+
 
 @media all and (max-width: 280px)
 {
