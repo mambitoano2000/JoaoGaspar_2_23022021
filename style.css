@@ -63,6 +63,11 @@ header
 
 /* Header  - Logo and Nav */
 
+#navigation
+{
+    margin-bottom: 35px;
+}
+
 
 #navigation nav
 {
@@ -119,6 +124,7 @@ header
     margin-block-start: 0em;
     margin-block-end: 0em;
     padding-top: 30px;
+    margin-left: 15px;
 }
 
 #navigation p a
@@ -464,6 +470,7 @@ main
   border-radius: 25px;
   font-size: 0.9em;
   margin-bottom: 30px;
+  box-shadow: 6px 6px 16px #f2f2f2;
 }
 
 .accomodation_text_block{
@@ -808,6 +815,15 @@ footer a
 
 }
 
+@media all and (max-width: 1240px)
+{
+
+
+
+
+
+}
+
 
 @media all and (max-width: 600px)
 {
@@ -861,6 +877,7 @@ footer a
 #navigation nav p
 {
     text-align: end;
+    margin-left: 0px;
 }
 
 #navigation ul
@@ -874,11 +891,12 @@ footer a
     padding-top: 28px;
     padding-bottom: 10px;
     width: 50%;
+    box-shadow: inset 0px -3px 0px 0px #F2F2F2;
 }
 
 #navigation li:hover
 {
-    box-shadow: inset 0px -2px 0px 0px #0065fc;
+    box-shadow: inset 0px -3px 0px 0px #0065fc;
 }
 
 /* Header  - Search */
@@ -960,7 +978,56 @@ i.fas.fa-search
 #filters form
 {
     flex-wrap: wrap;
+    font-size: 1.1em;
 }
+
+
+.filters_icons
+
+{
+    height: 40px;
+    width: 40px;
+}
+.filters_text
+{
+    height: auto;
+    width: auto;
+    padding: 10px;
+}
+
+.filters_block
+
+{
+    height: auto;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+.economique
+{
+    width: auto; 
+}
+
+.familial
+{
+    width: auto;
+}
+
+.romantique
+{
+    width: auto;
+}
+
+.animaux
+{
+    width: auto;
+}
+
+#information_paragraph
+{
+    font-size: 1em;
+}
+
 
 /* Main - Section 1 */
 
@@ -975,6 +1042,7 @@ i.fas.fa-search
 {
     display: flex;
     flex-direction: column-reverse;
+    margin-bottom: 0px;
 }
 
 /* Main - Section 1 - Article */
@@ -984,6 +1052,7 @@ i.fas.fa-search
 #accomodation_section article
 {
     margin-right: 0px;
+    margin-bottom: 0px;
 }
 article .accomodation_block
 {
@@ -1013,7 +1082,7 @@ article .accomodation_block
 
 .margin_popular
 {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .popularaccomodation_text_block
@@ -1041,6 +1110,11 @@ article .accomodation_block
  display: flex;
  flex-direction: column;
  justify-content: space-around;
+}
+
+#activities_blocks a
+{
+    margin-bottom: 8px;
 }
 
 .activity_block
