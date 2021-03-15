@@ -917,6 +917,10 @@ footer a
 
 {
     width: 15%;
+    box-shadow: inset 0px 2px 0px 0px #F2F2F2,
+                inset 0px -2px 0px 0px #F2F2F2
+    ;
+    border-radius: 0px 15px 15px 0px;
 
 }
 
