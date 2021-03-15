@@ -919,6 +919,12 @@ footer a
     width: 15%;
 
 }
+
+i.fas.fa-map-marker-alt.black 
+
+{
+    font-size: 1.1em;
+}
 .submit
 {
     width: 100%;
@@ -933,6 +939,7 @@ i.fas.fa-search
 {
     opacity: 1;
     padding-left: 0px;
+    font-size: 1em;
 }
 
 .text_inside_search
@@ -1082,4 +1089,61 @@ article .accomodation_block
     padding-left: 0px !important;
     padding-right: 0px !important;
     flex-direction: column;
+}
+
+@media all and (max-width: 280px)
+{
+
+
+
+#accomodation_section aside img 
+{
+   width: 90px;
+}
+
+.popularaccomodation_block
+{
+    height: 130px;
+}
+
+.popularaccomodation_text_block
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.popularaccomodation_text_block h3
+
+{
+    font-size: 0.8em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+.popularaccomodation_text_block i
+
+{
+    padding-top: 0px;
+}
+
+.popularaccomodation_text_block p 
+
+{
+    font-size: 0.8em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+#activities_section h3 {
+    font-size: 0.9em;
+
+}
+
+.aside_starts
+
+{
+    font-size: 0.8em;
+}
+
 }
