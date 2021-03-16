@@ -278,7 +278,7 @@ i.fas.fa-search
 
 .filters_block:hover
 {
-    background-color: rgb(246, 249, 255);
+    background-color: rgb(205, 222, 255);
 }
 
 .economique
@@ -350,10 +350,7 @@ i.fas.fa-search
     width: 200px;
 }
 
-.cheked_box
-{
-    
-}
+
 
 #filters form input[type=checkbox]
 {
@@ -395,10 +392,6 @@ input[type=checkbox]:checked + .cheked_box
 
 /* Main */
 
-main .wrapper
-{
- 
-}
 
 main
 {
@@ -495,16 +488,6 @@ main
     
 }
 
-.accomodation_block p + i
-{
-    
-}
-
-#accomodation_footer
-
-{
-
-}
 
 #accomodation_footer p
 
@@ -526,10 +509,7 @@ main
 
 /* Main - Section 1 - Aside */
 
-#accomodation_section aside
-{
- 
-}
+
 
 #accomodation_section aside img
 {
@@ -553,9 +533,6 @@ main
     justify-content: space-between;
 }
 
-#accomodation_section aside h2
-{
-}
 
 .title_accomodation i {
     font-size: 24px;
@@ -610,10 +587,7 @@ main
 
 /* Main - Section 2 */
 
-#activities_section
-{
 
-}
 
 .photo_big
 {
@@ -622,6 +596,7 @@ main
     border-radius: 25px 25px 0px 0px;
     object-fit: cover;
 }
+
 
 #photo_small_1
 {
@@ -810,6 +785,7 @@ footer a
 {
     width: 95%;
 }
+
     
 
     /* Footer 1*/
@@ -823,14 +799,6 @@ footer a
 
 }
 
-@media all and (max-width: 1240px)
-{
-
-
-
-
-
-}
 
 
 @media all and (max-width: 600px)
