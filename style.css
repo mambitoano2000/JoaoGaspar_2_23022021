@@ -188,7 +188,7 @@ i.fas.fa-map-marker-alt.black
     border-left: none;
     border-right: none;
     margin: 0px;
-    font: bold 1em "Raleway";
+    font: bold 1.050em "Raleway";
     outline-style: none;
     text-indent: 20px;
     padding: 0px;
@@ -211,7 +211,7 @@ i.fas.fa-map-marker-alt.black
     background-color: #0065FC;
     border: none;
     height: 47px;
-    width: 145px;
+    width: 125px;
     color: white;
     border-radius: 0px 15px 15px 0px;
     align-items: flex-start;
@@ -588,7 +588,6 @@ main
 /* Main - Section 2 */
 
 
-
 .photo_big
 {
     height: 450px;
@@ -779,14 +778,7 @@ footer a
         justify-content: space-around;
     }
 
-   /* Main - Section 2*/ 
 
-    .large
-{
-    width: 95%;
-}
-
-    
 
     /* Footer 1*/
 
