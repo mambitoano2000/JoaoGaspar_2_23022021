@@ -366,11 +366,7 @@ i.fas.fa-search
 }
 
 
-input[type=checkbox]:checked + .cheked_box
-{
-    background-color: rgb(222,236,255);
-    color: black;
-}
+
 
 /* Header  - Filters - Information paragraph*/
 
