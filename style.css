@@ -568,7 +568,7 @@ main
 
 .popularaccomodation_text_block
 {
-    width: 150px;
+    width: 160px;
     padding-left: 5px;
 }
 
@@ -1026,7 +1026,9 @@ i.fas.fa-search
 
 /* Main - Section 1 - Article */
 
-
+article #accomodation_blocks {
+    display: block;
+}
 
 #accomodation_section article
 {
@@ -1040,6 +1042,10 @@ article .accomodation_block
 }
 
 /* Main - Section 1 - Aside */
+
+.accomodation {
+    display: block;
+}
 
 .background_white
 
@@ -1083,6 +1089,11 @@ article .accomodation_block
 }
 
 /* Main - Section 2 - Blocks */
+
+#activities_section article {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 #activities_blocks 
 {
@@ -1155,6 +1166,11 @@ article .accomodation_block
     #accomodation_section aside img 
 {
    width: 120px;
+}
+
+
+article .accomodation_block {
+    width: 100%;
 }
 
 
